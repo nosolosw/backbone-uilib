@@ -112,7 +112,7 @@ API:
         template: myTemplate
     });
 
-<a name="Backbone.UILib.ItemView.render" href="#Backbone.UILib.ItemView">#</a> ItemView.render()
+<a name="Backbone.UILib.ItemView.render" href="#Backbone.UILib.ItemView.render">#</a> ItemView.render()
 
     var view = new Backbone.UILib.ItemView({
         model: myModel,
@@ -137,7 +137,7 @@ API:
         subviewTemplate: mySubviewTemplate
     });
 
-<a name="Backbone.UILib.ListView.render" href="#Backbone.UILib.ListView">#</a> ListView.render()
+<a name="Backbone.UILib.ListView.render" href="#Backbone.UILib.ListView.render">#</a> ListView.render()
 
     var view = new Backbone.UILib.ListView({
         collection: myCollection,
@@ -146,7 +146,7 @@ API:
     });
     view.render(); // renders the collection by creating subviews with the template provided
 
-<a name="Backbone.UILib.ListView.update" href="#Backbone.UILib.ListView">#</a> ListView.update(Backbone.Collection)
+<a name="Backbone.UILib.ListView.update" href="#Backbone.UILib.ListView.update">#</a> ListView.update(Backbone.Collection)
 
     var view = new Backbone.UILib.ListView({
         collection: myCollection,
@@ -156,7 +156,7 @@ API:
     view.render(); // renders the collection by creating subviews with the template provided
     view.update(myNewCollection); // adds new subviews for the new collection and removes the old ones
 
-<a name="Backbone.UILib.ListView.remove" href="#Backbone.UILib.ListView">#</a> ListView.remove()
+<a name="Backbone.UILib.ListView.remove" href="#Backbone.UILib.ListView.remove">#</a> ListView.remove()
 
     var view = new Backbone.UILib.ListView({
         collection: myCollection,
@@ -184,7 +184,7 @@ API:
         selectorTmpl: '#my-modal-tmpl',
     });
 
-<a name="Backbone.UILib.ModalView.render" href="#Backbone.UILib.ModalView.addAuxView">#</a> ModalView.addAuxView(Backbone.View)
+<a name="Backbone.UILib.ModalView.addAuxView" href="#Backbone.UILib.ModalView.addAuxView">#</a> ModalView.addAuxView(Backbone.View)
 
     var modal = new Backbone.UILib.ModalView({
         model: myModel,
@@ -294,7 +294,7 @@ API:
         model: myModel
     });
 
-<a name="Backbone.UILib.WidgetsView" href="#Backbone.UILib.WidgetsView.render">#</a> WidgetsView.render()
+<a name="Backbone.UILib.WidgetsView.render" href="#Backbone.UILib.WidgetsView.render">#</a> WidgetsView.render()
 
     var view = new Backbone.UILib.WidgetsView({
         el: myEl,
