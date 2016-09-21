@@ -4,19 +4,18 @@ Backbone views, models and collections to help in composing UIs that minimize re
 
 Models and Collections:
 
-* [Backbone.UILib.Domain](#Backbone.UILib.Domain)
-* [Backbone.UILib.DomainCollection](#Backbone.UILib.DomainCollection)
+* [Backbone.UILib.Domain](#backboneuilibdomain)
+* [Backbone.UILib.DomainCollection](#backboneuilibdomaincollection)
 
 Views:
 
-* [Backbone.UILib.BaseView](#Backbone.UILib.BaseView)
-* [Backbone.UILib.ItemView](#Backbone.UILib.ItemView)
-* [Backbone.UILib.ListView](#Backbone.UILib.ListView)
-* [Backbone.UILib.ModalView](#Backbone.UILib.ModalView)
-* [Backbone.UILib.OptionView](#Backbone.UILib.OptionView)
-* [Backbone.UILib.SelectView](#Backbone.UILib.SelectView)
-* [Backbone.UILib.WidgetsView](#Backbone.UILib.WidgetsView)
-
+* [Backbone.UILib.BaseView](#backboneuilibbaseview)
+* [Backbone.UILib.ItemView](#backboneuilibitemview)
+* [Backbone.UILib.ListView](#backboneuiliblistview)
+* [Backbone.UILib.ModalView](#backboneuilibmodalview)
+* [Backbone.UILib.OptionView](#backboneuiliboptionview)
+* [Backbone.UILib.SelectView](#backboneuilibselectview)
+* [Backbone.UILib.WidgetsView](#backboneuilibwidgetsview)
 
 ## Backbone.UILib.Domain
 
@@ -47,7 +46,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.DomainCollection" href="#Backbone.UILib.DomainCollection">#</a> DomainCollection
+<a name="Backbone.UILib.DomainCollection.new" href="#Backbone.UILib.DomainCollection.new">#</a> new DomainCollection()
 
     var domains = new Backbone.UILib.DomainCollection();
     domains.url = "/my-domains-api";
@@ -75,7 +74,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.BaseView" href="#Backbone.UILib.BaseView">#</a> BaseView
+<a name="Backbone.UILib.BaseView.new" href="#Backbone.UILib.BaseView.new">#</a> new BaseView()
 
     var view = new Backbone.UILib.BaseView();
 
@@ -106,7 +105,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.ItemView" href="#Backbone.UILib.ItemView">#</a> ItemView
+<a name="Backbone.UILib.ItemView.new" href="#Backbone.UILib.ItemView.new">#</a> new ItemView()
 
     var view = new Backbone.UILib.ItemView({
         model: myModel,
@@ -130,7 +129,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.ListView" href="#Backbone.UILib.ListView">#</a> ListView
+<a name="Backbone.UILib.ListView.new" href="#Backbone.UILib.ListView.new">#</a> new ListView()
 
     var view = new Backbone.UILib.ListView({
         collection: myCollection,
@@ -177,7 +176,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.ModalView" href="#Backbone.UILib.ModalView">#</a> ModalView
+<a name="Backbone.UILib.ModalView.new" href="#Backbone.UILib.ModalView.new">#</a> new ModalView()
 
     // adds template to DOM
     var modal = new Backbone.UILib.ModalView({
@@ -220,7 +219,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.OptionView" href="#Backbone.UILib.OptionView">#</a> OptionView
+<a name="Backbone.UILib.OptionView.new" href="#Backbone.UILib.OptionView.new">#</a> new OptionView()
 
     var view = new Backbone.UILib.OptionView({
         model: myModel,
@@ -244,7 +243,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.SelectView" href="#Backbone.UILib.SelectView">#</a> SelectView
+<a name="Backbone.UILib.SelectView.new" href="#Backbone.UILib.SelectView.new">#</a> new SelectView()
 
     new Backbone.UILib.SelectView({
         el: myEl,
@@ -288,7 +287,7 @@ Dependencies:
 
 API:
 
-<a name="Backbone.UILib.WidgetsView" href="#Backbone.UILib.WidgetsView">#</a> WidgetsView
+<a name="Backbone.UILib.WidgetsView.new" href="#Backbone.UILib.WidgetsView.new">#</a> new WidgetsView()
 
     var view = new Backbone.UILib.WidgetsView({
         el: myEl,
